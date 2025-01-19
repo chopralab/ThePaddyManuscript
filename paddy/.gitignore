@@ -1,0 +1,13 @@
+*.pyc
+**/__pycache__
+.vscode/
+docs/_*/
+build/
+dist/
+paddy.egg-info
+
+*/_build/
+
+.cache/
+
+paddy_test_2.py
