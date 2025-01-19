@@ -1,0 +1,116 @@
+# Project directories
+
+paddy_manuscriptrepo/
+ax_dev/
+
+minmax/archive/
+minmax/RANDOM_06dec/
+
+
+# MLP directories and files
+
+mlp/archive/
+mlp/logs/
+mlp/plots/raw/raw/
+mlp/plots/notebooks/**/*.log
+mlp/plots/notebooks/**/*.err
+mlp/plots/plotting_data/raw/
+mlp/plots/expanded_grid/*
+mlp/plots/grid/data/
+mlp/python_files/training_data/
+mlp/plots/raw/
+
+mlp/plots/plotting_data/plotting_data.tar.gz
+
+# Gramacy 
+gramacy/benchmark/expanded_grid/
+gramacy/benchmark/grid/data/
+gramacy/benchmark/heatmaps/old/
+gramacy/benchmark/distribution_plots/
+gramacy/benchmark/grid/heatmaps/
+gramacy/benchmark/**/*.log
+
+# Gramacy notebooks and data files
+gramacy/**/*.csv
+gramacy/**/*.pickle  
+
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+.ipynb_checkpoints/
+
+# Archive directories - complete exclusion
+**/archive/
+**/archive_*
+**/archive_logs/
+**/archive_plots/
+archive/
+
+# Large log files
+**/*.log
+
+
+# Data and logs
+*.log
+*.err
+mlp/plots/raw/raw.tar.gz
+mlp/plots/raw/raw_compressed.tar.gz*
+mlp/plots/raw/*.part-*
+
+########## # Add ignore patterns for large files
+JTVAE/Plotting/JTVAE_Sampling/*.pickle
+JTVAE/Plotting/JTVAE_Sampling/*.npy
+JTVAE/Plotting/JTVAE_Sampling/*.gif
+gramacy/benchmark/experiment_log_files/*.tar.gz
+mlp/plots/plotting_data/*.tar.gz
+JTVAE/*
+
+
+#######
+
+# Create a comprehensive .gitignore
+cat << 'EOF' > .gitignore
+# System files
+.DS_Store
+.coverage
+*.pyc
+__pycache__/
+
+# Data files
+*.pickle
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Large binary files
+*.tar.gz
+
+# Python virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build files
+dist/
+build/
+*.egg-info/
+EOF
