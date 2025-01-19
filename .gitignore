@@ -69,7 +69,7 @@ JTVAE/Plotting/JTVAE_Sampling/*.npy
 JTVAE/Plotting/JTVAE_Sampling/*.gif
 gramacy/benchmark/experiment_log_files/*.tar.gz
 mlp/plots/plotting_data/*.tar.gz
-JTVAE/*
+
 
 
 #######
