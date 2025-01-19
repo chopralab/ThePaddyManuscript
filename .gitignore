@@ -65,8 +65,8 @@ mlp/plots/raw/*.part-*
 
 ########## # Add ignore patterns for large files
 # JTVAE/Plotting/JTVAE_Sampling/*.pickle
-# JTVAE/Plotting/JTVAE_Sampling/*.npy
-JTVAE/Plotting/JTVAE_Sampling/*.gif
+# # JTVAE/Plotting/JTVAE_Sampling/*.npy
+# JTVAE/Plotting/JTVAE_Sampling/*.gif
 gramacy/benchmark/experiment_log_files/*.tar.gz
 mlp/plots/plotting_data/*.tar.gz
 
