@@ -1,4 +1,4 @@
-# Paddy-Arche
+# Paddy-Architecture
 
 Paddy is a Python package developed as an extension of the Paddy Field Algorithm (PFA), a genetic global optimization algorithm proposed by Premaratne et al. (2009). This work showcases the modifications and extended formulations of the PFA developed by members of Chopra-Lab. The experiments include:
 - Numeric optimization
@@ -31,7 +31,7 @@ This repository contains both the source code for Paddy and the experiments used
 
 JTVAE was tested on a CentOS Linux, Version 7 (Core) machine using Conda 4.6.11, build version 3.17.9. These requirement files should work for `linux-64` distributions running Conda. Additional information regarding Conda usage can be found [here](https://docs.conda.io/).
 
-Experiments including MinMax Gramacy Lee and MLP Hyperparameter Optimization run on Purdue's HPC system, Gilbreth, specifically on node K. Node K features the following specifications:
+Experiments including MinMax Gramacy Lee and MLP Hyperparameter Optimization were run on Purdue's High Performance Computing (HPC) system, Gilbreth, specifically on node K. Node K features the following specifications:
 - **Cores per Node:** 64
 - **Memory per Node:** 512 GB
 - **GPUs per Node:** 2 A100 (80 GB)
@@ -50,7 +50,7 @@ Where `name` is the name of the requirement file. All `.yml` files are located i
 
 To download Paddy and this repository, run the following commands:
 ```bash
-git clone https://github.com/chopralab/Paddy_Manuscript_Repo
+git clone https://github.com/chopralab/ThePaddyManuscript.git
 git submodule init
 git submodule update
 ```
@@ -59,7 +59,7 @@ git submodule update
 
 ## Experiments
 
-JTVAE scripts should be run from the `Paddy_Manuscript_Repo` root directory.
+JTVAE scripts should be run from the `ThePaddyManuscript` root directory.
 
 MinMax, Gramacy Lee, and MLP benchmarks were executed on Purdue's High-Performance Computing (HPC) cluster, Gilbreth. To reproduce these experiments, you'll need to modify the shell scripts with your specific HPC configurations before running on the backend.
 Each benchmark's implementation, including Python files and shell scripts, can be found in their respective directories under the python_files folder.
