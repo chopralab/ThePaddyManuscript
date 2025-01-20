@@ -3,6 +3,9 @@
 paddy_manuscriptrepo/
 ax_dev/
 
+# Paddy repo
+paddy/paddy/tests/*
+
 minmax/archive/
 minmax/RANDOM_06dec/
 
@@ -83,7 +86,7 @@ cat << 'EOF' > .gitignore
 __pycache__/
 
 # Data files
-*.pickle
+
 *.pkl
 *.npy
 *.npz
@@ -96,7 +99,7 @@ logs/
 **/logs/
 
 # Large binary files
-*.tar.gz
+# *.tar.gz
 
 # Python virtual environments
 venv/
