@@ -10,7 +10,7 @@ This repository contains both the source code for Paddy and the experiments used
 ---
 
 # Project Structure
-
+```
 .
 ├── gramacy
 ├── JTVAE
@@ -19,6 +19,7 @@ This repository contains both the source code for Paddy and the experiments used
 ├── paddy
 ├── README.md
 └── requirements
+```
 
 ## Directory Description
 
