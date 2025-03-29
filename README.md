@@ -17,13 +17,14 @@ This repository contains both the source code for Paddy and the experiments used
 ├── minmax
 ├── mlp
 ├── paddy
+├── PK-Simulations
 ├── README.md
 └── requirements
 ```
 
 ## Directory Description
 
-- `gramacy`, `JTVAE`, `minmax`, and `mlp` are the directories containing files used benchmarks testing and evaluation
+- `gramacy`, `JTVAE`, `minmax`, `mlp`, `PK-Simulations` and  are the directories containing files used benchmarks testing and evaluation
 - `paddy` contains the Paddy algorithm repo and its documentation
 - `requirements` holds environment configuration files for each benchmark
 
