@@ -1,5 +1,5 @@
 # Project directories
-
+.gitignore
 paddy_manuscriptrepo/
 ax_dev/
 
@@ -20,7 +20,6 @@ mlp/plots/notebooks/**/*.err
 mlp/plots/plotting_data/raw/
 mlp/plots/expanded_grid/*
 mlp/plots/grid/data/
-mlp/python_files/training_data/
 mlp/plots/raw/
 
 mlp/plots/plotting_data/plotting_data.tar.gz
